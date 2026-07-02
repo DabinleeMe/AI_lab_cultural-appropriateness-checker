@@ -1,0 +1,10 @@
+version,task,accuracy,macro_f1,json_fail_rate
+A,risk,0.0119,0.0123,0.9405
+A,topic,0.0119,0.0175,0.9405
+A,intent,0.0476,0.0485,0.9405
+B,risk,0.0,0.0,1.0
+B,topic,0.0,0.0,1.0
+B,intent,0.0,0.0,1.0
+C,risk,0.5952,0.3923,0.0
+C,topic,0.5,0.5113,0.0
+C,intent,0.5952,0.4089,0.0
