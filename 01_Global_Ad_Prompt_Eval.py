@@ -16,7 +16,6 @@ The model NEVER sees the gt_* columns; they are only used for scoring.
  
 Setup:
     pip install ollama pandas
- 
 For Ollama (free, local):
     ollama pull llama3.2:3b
     ollama serve
@@ -24,7 +23,7 @@ For Ollama (free, local):
  
 import json
 import os
-import re
+#import re
 import time
 from collections import Counter
  
