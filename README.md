@@ -3,6 +3,8 @@
 
 > **Module 1 of a 4-module Cultural Intelligence Platform** (M.Sc. AI in Business, SRH Berlin).
 > Can a cheap, locally-run 3B model flag culturally risky ad copy at the draft stage — and how much does prompt design drive that performance?
+>
+> > **Status:** 🟢 Module 1 complete (evaluation + report) · 🔨 Modules 2–4 in development · results may be refined as the platform evolves
 
 **TL;DR:** Three prompt strategies (zero-shot / persona / few-shot + step-by-step) were compared on 84 real-world ad samples across 8 cultures. The first run scored ~0% — not because the model couldn't reason, but because it couldn't produce valid JSON. After forcing structured output, few-shot (C) won on topic, intent, and label reliability; persona (B) kept risk classes most balanced. **Accuracy alone hid all of this — macro F1 told the real story.**
 
