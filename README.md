@@ -1,3 +1,11 @@
+# Cultural Appropriateness Checker 🚧 (Work in Progress)
+
+> Module 1 of a Cultural Intelligence Platform for global content teams —
+> an A/B/C prompt-engineering evaluation for detecting cultural risk in global ad copy.
+
+**Status:** 🔨 Active development (M.Sc. AI in Business, SRH Berlin). 
+Evaluation pipeline and prompt catalog are functional; scoring and analysis in progress.
+
 ## Why this exists
 
 AI now produces marketing content at unprecedented scale — but checking
@@ -11,6 +19,7 @@ This project asks: can an LLM, with the right prompt design, flag
 cultural risk at the *draft* stage — as a measurable risk score, not a
 verdict? Not to replace local experts, but to act as a triage layer so
 they only review the genuinely ambiguous cases.
+
 
 ## What it does (Module 1 of 4)
 
@@ -29,6 +38,20 @@ normal marketing copy) across 8 cultures selected along the Hofstede
 Uncertainty Avoidance spectrum (China 30 → Japan 92). Each sample is
 classified on three axes: risk level (Expected / Normal / Taboo),
 violated cultural topic, and intent. Metrics: accuracy and macro F1.
+
+
+
+## Repository structure
+
+- `01_Global_Ad_Prompt_Eval.py` — runs the A/B/C evaluation grid
+- `prompts.py` / `Prompt_Catalog.md` — the three prompt strategies, documented
+- `analyze_result_eng.py` — aggregates predictions into summary metrics
+- `prompt_eval_predictions.csv` / `prompt_eval_summary.csv` — raw + summary results
+- `Data/` — ad copy samples
+
+## Preliminary results
+
+_Coming soon — full A/B/C comparison table (precision / recall per prompt strategy)._
 
 ## Roadmap
 
